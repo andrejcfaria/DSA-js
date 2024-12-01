@@ -1,0 +1,19 @@
+{
+  "name": "typescript-dsa-learning",
+  "version": "1.0.0",
+  "description": "Data Structures and Algorithms Learning Repository",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "test": "jest",
+  "test:file": "jest __tests__/src/[FILENAME].test.ts",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "prepare": "husky install"
+  },
+  "keywords": ["typescript", "dsa", "learning"],
+  "author": "Your Name",
+  "license": "MIT"
+}
